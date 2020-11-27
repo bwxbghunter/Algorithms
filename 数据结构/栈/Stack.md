@@ -104,8 +104,8 @@ class Stack {
     + 先判断是否为空，为空返回空串
     + 将第一个元素取出保存在`str`变量中, 之后根据`count`的大小，来将`items`中的元素从第一位开始遍历，与`str`拼接起来，这样可以很好的控制中间的逗号，如果栈中只有一个元素，则不会进入循环中，直接返回第0个元素，后面也没有逗号。
 <br>
-实现了栈这个类之后，接下来验证一下结果
-```javaScript
+实现了栈这个类之后，接下来验证一下结果<br>
+```javascript
 const stack = new Stack()
 
 console.log(stack.isEmpty()) // true
@@ -128,7 +128,6 @@ stack.pop()
 
 console.log(stack.size()) // 2
 ```
-
 可以看到结果与预期的一样，以上就是使用数组和对象两种方式来实现的栈类啦
 
 
