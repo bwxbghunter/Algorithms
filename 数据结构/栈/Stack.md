@@ -5,7 +5,7 @@
 
 简单来讲，栈是一个遵从后进先出（LIFO）原则的有序集合，新添加的元素或者等待删除的元素靠近栈顶，另一端则为栈底。在我们身边有许多跟栈相关的例子，比如家中常用的纸抽，如下图所示。
 <br>
-<img src="./images/paper.jfif" width="200" align="top" /><br>
+![paper]('./images/paper.jfif')
 
 **接下来分别使用数组和对象两种方式来实现栈的一些基础方法,**
 + push - 压栈
@@ -105,7 +105,7 @@ class Stack {
     + 将第一个元素取出保存在`str`变量中, 之后根据`count`的大小，来将`items`中的元素从第一位开始遍历，与`str`拼接起来，这样可以很好的控制中间的逗号，如果栈中只有一个元素，则不会进入循环中，直接返回第0个元素，后面也没有逗号。
 <br>
 实现了栈这个类之后，接下来验证一下结果
-```javaScript
+```javascript
 const stack = new Stack()
 
 console.log(stack.isEmpty()) // true
