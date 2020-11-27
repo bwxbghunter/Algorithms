@@ -107,19 +107,31 @@ class Stack {
 实现了栈这个类之后，接下来验证一下结果<br>
 ```javascript
 const stack = new Stack()
+
 console.log(stack.isEmpty()) // true
+
 stack.push(5)
 stack.push(8)
+
 console.log(stack.peek()) // 8
+
 stack.push(11)
+
 console.log(stack.size()) // 3
+
 console.log(stack.isEmpty()) // false
+
 stack.push(15)
+
 console.log(stack.toString()) // 5, 8, 11, 15
+
 stack.pop()
 stack.pop()
+
 console.log(stack.size()) // 2
+
 ```
+<br>
 可以看到结果与预期的一样，以上就是使用数组和对象两种方式来实现的栈类啦
 
 
