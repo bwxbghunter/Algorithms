@@ -16,7 +16,7 @@
 + clear - 清空栈
 
 ### 使用数组方式实现栈
-```javascript
+``` javascript
 class Stack {
   constructor() {
     this.items = []
