@@ -6,7 +6,7 @@
 简单来讲，栈是一个遵从后进先出（LIFO）原则的有序集合，新添加的元素或者等待删除的元素靠近栈顶，另一端则为栈底。在我们身边有许多跟栈相关的例子，比如家中常用的纸抽，如下图所示。
 <br>
 
-![paper](https://github.com/bwxbghunter/Algorithms/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%88/images/paper.jfif)
+![paper](https://github.com/bwxbghunter/Algorithms/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%88/images/paper.png)
 
 **接下来分别使用数组和对象两种方式来实现栈的一些基础方法,**
 + push - 压栈
